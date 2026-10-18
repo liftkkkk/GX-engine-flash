@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="v_gx_name" for="node" attr.name="gx_name" attr.type="string"/>
+  <key id="v_gx_class" for="node" attr.name="gx_class" attr.type="string"/>
+  <key id="v_gx_weight" for="node" attr.name="gx_weight" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="e_gx_label" for="edge" attr.name="gx_label" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">0</data>
+      <data key="v_id">0</data>
+      <data key="v_gx_name">n0</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">1</data>
+      <data key="v_id">1</data>
+      <data key="v_gx_name">n1</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">2</data>
+      <data key="v_id">2</data>
+      <data key="v_gx_name">n2</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">3</data>
+      <data key="v_id">3</data>
+      <data key="v_gx_name">n3</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">4</data>
+      <data key="v_id">4</data>
+      <data key="v_gx_name">n4</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">5</data>
+      <data key="v_id">5</data>
+      <data key="v_gx_name">n5</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">6</data>
+      <data key="v_id">6</data>
+      <data key="v_gx_name">n6</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">7</data>
+      <data key="v_id">7</data>
+      <data key="v_gx_name">n7</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">8</data>
+      <data key="v_id">8</data>
+      <data key="v_gx_name">n8</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">9</data>
+      <data key="v_id">9</data>
+      <data key="v_gx_name">n9</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">10</data>
+      <data key="v_id">10</data>
+      <data key="v_gx_name">n10</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">11</data>
+      <data key="v_id">11</data>
+      <data key="v_gx_name">n11</data>
+      <data key="v_gx_class">t</data>
+      <data key="v_gx_weight">1</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">1</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_weight">1.1</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_weight">1.2</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_weight">1</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_weight">1.4</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n5" target="n3">
+      <data key="e_weight">1.5</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n3" target="n6">
+      <data key="e_weight">1.3</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n1" target="n5">
+      <data key="e_weight">1.1</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n2" target="n6">
+      <data key="e_weight">1.2</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n6" target="n7">
+      <data key="e_weight">1.6</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_weight">1.7</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_weight">1.8</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="e_weight">1.9</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n10" target="n11">
+      <data key="e_weight">2</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n11" target="n6">
+      <data key="e_weight">2.1</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n4" target="n1">
+      <data key="e_weight">1.4</data>
+      <data key="e_gx_label"></data>
+    </edge>
+    <edge source="n5" target="n2">
+      <data key="e_weight">1.5</data>
+      <data key="e_gx_label"></data>
+    </edge>
+  </graph>
+</graphml>

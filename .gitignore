@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+model_folder/
+resources/
+产品文档/
+*.bak*
+*.pkl
+*.html

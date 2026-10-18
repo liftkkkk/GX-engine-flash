@@ -27,6 +27,15 @@ Random directed graph, 3,000 nodes / 12,000 edges, Windows, Python 3.13
 | Louvain community | 86.8 ms | 279.6 ms | **3.2x** |
 | Single-source Dijkstra | 9.2 ms | 8.0 ms | ~1x |
 
+Same benchmark at **10,000 nodes / 40,000 edges** - the gap keeps widening:
+
+| Algorithm | GX-Flash (igraph) | NetworkX | Speed-up |
+|---|---|---|---|
+| Betweenness centrality | 16.5 s | 4.8 min | **17.4x** |
+| All-pairs distances | 22.0 s | 4.4 min | **11.9x** |
+| Clustering coefficient | 38.1 ms | 146.3 ms | **3.8x** |
+| Louvain community | 727 ms | 1.6 s | **2.2x** |
+
 Every GX-Flash timing includes the igraph conversion cost, so these are
 conservative numbers. The gap widens as graphs grow - and the old pure-Python
 fallbacks (betweenness, hierarchical clustering with O(n^2) NetworkX calls)

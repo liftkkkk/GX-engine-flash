@@ -10,3 +10,5 @@ resources/
 *.bak*
 *.pkl
 *.html
+test_roundtrip.graphml
+test_rt2.graphml
